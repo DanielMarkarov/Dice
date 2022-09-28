@@ -4,7 +4,7 @@ int sum = 0;
 
 void setup()
 {
-  size(500, 500);
+  size(500, 520);
   noLoop();
 }
 
@@ -19,7 +19,8 @@ void draw()
   Die1.show(i, j);
     }  
   }
-  System.out.println("Total: " + sum);
+  textSize(15);
+  text("Total: " + sum, 250, 515);
 }
 
 void mousePressed()
